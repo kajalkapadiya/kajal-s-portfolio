@@ -6,7 +6,7 @@ const Skill = ({ name, x, y }) => {
     <motion.div
       className="flex items-center justify-center rounded-full font-semibold
          bg-dark text-light py-3 px-6 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light
-         lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light
+         lg:py-2 lg:px-4 md:text-sm md:py-1 md:px-2 xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light
          xs:font-bold"
       whileHover={{ scale: 1.12}}
       initial={{ x: 0, y: 0 }}
@@ -40,7 +40,7 @@ const Skills = () => {
         <Skill name="NextJS" x="-20vw" y="-15vw" />
         <Skill name="Web Design" x="32vw" y="-5vw" />
         <Skill name="Firebase" x="-25vw" y="18vw" />
-        <Skill name="MondoDb atlas" x="15vw" y="-12vw" />
+        <Skill name="MondoDb" x="15vw" y="-12vw" />
         <Skill name="Bootstrap5" x="0vw" y="-20vw" />
         <Skill name="Github" x="-32vw" y="-5vw" />
       </div>
