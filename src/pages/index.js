@@ -19,13 +19,13 @@ export default function Home() {
       </Head>
       <Transition />
       <main className="flex items-center text-dark w-full dark:text-light min-h-screen">
-        <Layout className="pt-0 md:pt-16 sm:pt-8">
+        <Layout className="pt-0 md:pt-16 sm:pt-8 xs:pt-0">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/4 ml-20 md:w-1/2 md:ml-0">
               <Image
                 src={profilePic}
                 alt="kk"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full md:mb-4"
+                className="w-full h-auto lg:hidden md:inline-block md:w-full md:mb-4 xs:mb-4"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw, 33vw"
               />
@@ -33,9 +33,9 @@ export default function Home() {
             <div className="w-3/4 ml-20 flex flex-col items-center self-center lg:w-full lg:text-center md:ml-0">
               <AnimatedText
                 text="Code, Design, Create: Transforming Visions into Digital Experiences"
-                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-4xl sm:!text-3xl"
+                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-4xl sm:!text-3xl xs:!text-2xl"
               />
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+              <p className="my-4 text-base font-medium md:text-sm sm:text-xs xs:text-start">
                {" Hi, I'm a front-end enthusiast on a mission to create captivating websites. Take a tour of my latest projects where I delve into the world of React.js and the art of creating engaging web."}
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
