@@ -1,10 +1,10 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
-import profilePic from "../../public/images/profile/profileAI.jpg";
+import profilePic from "../../public/images/profile/myPic.png";
 import Image from "next/image";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
-import { HireMeLogo, LinkArrow } from "@/components/Icons";
+import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import Transition from "@/components/Transition";
 
@@ -36,7 +36,9 @@ export default function Home() {
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-4xl sm:!text-3xl xs:!text-2xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs xs:text-start">
-               {" Hi, I'm a front-end enthusiast on a mission to create captivating websites. Take a tour of my latest projects where I delve into the world of React.js and the art of creating engaging web."}
+                {
+                  " Hi, I'm a front-end enthusiast on a mission to create captivating websites. Take a tour of my latest projects where I delve into the world of React.js and the art of creating engaging web."
+                }
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
